@@ -1,0 +1,27 @@
+.table{
+    list-style: none;
+}
+
+.table>*{
+    margin: 1em
+}
+
+.row{
+    display: flex;
+    list-style: none;
+}
+
+.table:first-of-type(1){
+    background-color: red;
+}
+
+.row>*{
+    margin: 1em;
+    flex-basis: 100%;
+    text-align: left;   
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(83, 188, 192);
+}
+
+.header button{
+    padding: .5em 1em;
+    cursor: pointer;
+    outline: none;
+}
